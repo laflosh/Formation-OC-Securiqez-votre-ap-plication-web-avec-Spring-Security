@@ -20,4 +20,12 @@ public class LoginController {
 		
 	}
 	
+	@GetMapping("/")
+	public String getGithub() {
+		
+		return "Welcome, Github user";
+		
+	}
+	
+	
 }
